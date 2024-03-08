@@ -1,0 +1,30 @@
+{
+	"name": "otpless-node-auth",
+	"private": true,
+	"version": "1.0.0",
+	"description": "OTPless Authorization Demo in Node with TypeScript",
+	"main": "main.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "ts-node main.ts",
+		"dev": "nodemon main.ts"
+	},
+	"keywords": [
+		"OTPless",
+		"Authorization",
+		"SignIn",
+		"SignUp",
+		"Node",
+		"TypeScript"
+	],
+	"author": "ByteBane",
+	"license": "ISC",
+	"dependencies": {
+		"otpless-node-js-auth-sdk": "^1.0.7"
+	},
+	"devDependencies": {
+		"@types/node": "^20.10.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	}
+}
